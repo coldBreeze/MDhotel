@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+.panel{
+	margin:50px auto;
+}
+table{
+	margin:10px 0px;
+}
+table th,table td{
+	text-align:center;
+	padding:10px;
+}
+table tr{
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.pagination > li > a:hover,
+.pagination > li > a:focus{
+    color:#fff;
+    background-color:#23527c;
+    border-color:#ddd;
+}
+table .read{
+	cursor:pointer;
+}
+#readModal ul{
+	margin:0px;
+}
+#readModal ul li p{
+	font-size:1.2em;
+	margin:0px;
+}
+#readModal ul li p.pull-left{
+	color:#23527c;
+}

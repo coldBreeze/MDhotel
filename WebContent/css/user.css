@@ -1,0 +1,31 @@
+#user .container{
+	margin-top: 80px;
+}
+#user .container .list-group .list-group-item a{
+	color: black;
+	font-size: 15px;
+}
+.table tr td button{
+	background-color: white;
+	border:1px solid #bbb;
+}
+
+#userSearch .alert{
+	margin:20px 0;
+	height: 80px;
+}
+#userSearch .alert p{
+	line-height: 40px;
+}
+#userSearch .alert p span{
+	font-weight: bold;
+}
+#userSearch .form-control{
+	margin:10px 0;
+}
+#userSearch .form-group button{
+	background-color: white;
+	border: 1px solid #bbb;
+	width: 60px;
+	margin-top:10px;
+}

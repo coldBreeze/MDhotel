@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#fff;
+}
+#alert{
+	margin-bottom:0px;
+}
+#canDo{
+	padding:20px 0px;
+	font-family:微软雅黑;
+	color:#000;
+}
+#canDo h4{
+	font-size:1.3em;
+	margin:20px auto;
+}
+#canDo hr{
+	border-top:1px solid #ccc;
+}
+#canDo p{
+	font-size:1.2em;
+	margin:20px auto;
+}
+footer{
+	background:#222;
+	padding:10px 0px;
+	color:#ccc;
+}

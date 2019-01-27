@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:url(../img/bg-login.jpg) no-repeat;
+}
+.main{
+	margin:0px auto;
+}
+#yanzheng{
+	padding:0px;
+	border:2px solid green;
+}
+/*nav*/
+.main-nav{
+	background:#fff;
+	padding:0px;
+	font-family:黑体;
+}
+.main-nav .navbar-brand{
+	height:47px;
+}
+.main .nav-tabs{
+	background:#fff;
+	margin:0px;
+	border-bottom:0px;
+}
+.main .nav-tabs > li {
+	text-align:center;
+	width:180px;
+}
+.main .nav-tabs li a{
+	color:#000;
+	font-size:1.3em;
+}
+.main .nav-tabs li.active a{
+	font-weight:600;
+	background:rgba(255, 255, 255, 0);
+	border:1px solid #aaa;
+	border-bottom:0px;
+	color:#000;
+}
+/*tab-content*/
+.main .tab-content{
+	margin:20px 0;
+}
+/*login*/
+.login .login-hello{
+	margin-top:150px;
+	text-align:right;
+}
+.login-hello h4{
+	font-size:1.7em;
+	font-weight:600;
+	color:#fff;
+	margin-bottom:20px;
+	margin-right:50px;
+}
+.login-hello p{
+	font-size:1.3em;
+	color:#fff;
+	margin-right:50px;
+}
+.login .login-form{
+	max-width:400px;
+	margin:80px auto;
+	margin-left:0px;
+	padding:20px 40px;
+	border:1px solid rgba(0,0,0,0.15);
+	border-radius:5px;
+	box-shadow:0px 0px 15px rgba(0,0,0,0.5);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;	
+}
+.login-form:hover{
+	background:#fcfcfc;
+}
+.login-form h4{
+	font-size:1.3em;
+	font-weight:600;
+	line-height:23px;
+	margin:7px 0px;
+	text-transform:uppercase;
+	text-align:center;
+}
+.login-form .form-control{
+	padding-left:0px;
+	margin:20px 0px;
+	border:0px;
+	border-radius:0px;
+	border-bottom:1px dashed #ccc;
+	box-shadow:none;
+	background:transparent;
+}
+.login-form button.btn{
+	margin:0px;
+	margin-top:10px;
+	padding:10px 25px;
+	font-size:1em;
+	border:0px;
+	text-transform:uppercase;
+	border-radius:60px;
+}
+/*modal*/
+.modal{
+	margin:100px auto;
+}

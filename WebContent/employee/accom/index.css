@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+.panel{
+	margin:10px auto;
+}
+table{
+	margin:5px 0px;
+}
+table th,table td{
+	text-align:center;
+	padding:5px;
+}
+table tr{
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.pagination > li > a:hover,
+.pagination > li > a:focus{
+    color:#fff;
+    background-color:#23527c;
+    border-color:#ddd;
+}
+.login-form{
+	margin:20px auto;
+	font-size:16px;
+}
+.login-form:hover{
+	background:#fcfcfc;
+}
+.login-form h4{
+	font-size:20px;
+	font-weight:600;
+	line-height:23px;
+	margin:7px auto;
+	text-transform:uppercase;
+	text-align:center;
+}
+.login-form .col-md-9{
+	padding-left:5px;
+	border:0px;
+	border-radius:0px;
+	border-bottom:1px dashed #ccc;
+	box-shadow:none;
+	background:transparent;
+}
+.login-form .form-group{
+	margin:30px auto;
+}
+.login-form .form-group label{
+	text-align:right;
+	padding-right:20px;
+}
+.login-form button.btn{
+	margin:0px;
+	margin-top:10px;
+	padding:10px 25px;
+	font-size:1em;
+	border:0px;
+	text-transform:uppercase;
+	border-radius:60px;
+}
+#readModal ul{
+	margin:0px;
+}
+#readModal ul li p{
+	font-size:1.2em;
+	margin:0px;
+}
+#readModal ul li p.pull-left{
+	color:#23527c;
+}
+table .read,table .edit{
+	cursor:pointer;
+}
+

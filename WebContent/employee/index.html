@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/employee.dwt" codeOutsideHTMLIsLocked="false" -->
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+		<link rel="stylesheet" href="../css/animate.css" />
+        <link rel="stylesheet" href="../font-awesome/css/font-awesome.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+		<link rel="shortcut icon" href="../img/icon.png" />
+		<!-- InstanceBeginEditable name="doctitle" -->
+		<title>首页</title>
+		<!-- InstanceEndEditable -->
+		<script src="../js/jquery-3.1.1.min.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/jquery.singlePageNav.min.js"></script>
+		<script src="../js/wow.min.js"></script>
+        <script src="../js/style.js"></script>
+		<!-- InstanceBeginEditable name="head" -->  
+        <link rel="stylesheet" href="index.css" />
+        <script src="index.js"></script>
+		<!-- InstanceEndEditable -->
+	</head>
+	<body>
+    <div id="logo">
+        <div class="container">
+            <h3 class="pull-left">牡丹之星连锁旅馆信息管理系统(<span id="shopName" style="font-size:0.7em"></span>)</h3>
+            <div id="time"></div>
+        </div>
+    </div>
+        <nav class="navbar navbar-inverse" id="nav">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">牡丹之星Emp</a>
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                    <!-- InstanceBeginEditable name="menu" -->
+                         <li class="active">
+                            <a href="#"><i class="fa fa-home"></i>&nbsp;&nbsp;首页</a>
+                        </li>
+                        <li>
+                            <a href="person/index.html"><i class="fa fa-desktop"></i>&nbsp;&nbsp;个人信息</a>
+                        </li>
+                        <li>
+                            <a href="passenger/index.html"><i class="fa fa-user"></i>&nbsp;&nbsp;旅客管理</a>
+                        </li>
+                        <li>
+                            <a href="accom/index.html"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;住宿管理</a>
+                        </li>
+                        <!-- InstanceEndEditable -->
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="" class="dropdown" data-toggle="dropdown">当前用户：<span id="userInfo" ></span>&nbsp;&nbsp;<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="javascript:exit(0);"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+	<div class="container">
+	<div id="canDo">
+		<p><span id="mainUser" style="font-size:20px;font-weight:600;"></span>，锲而不舍，金石可镂~</p>
+		<hr> 
+		<div><h4>欢迎您，进入牡丹之星连锁旅馆信息管理系统。您可以：</h4></div>
+		<p><i class="fa fa-tag"></i>&nbsp;&nbsp;查看个人信息，修改安全登录密码；</p>
+		<p><i class="fa fa-tag"></i>&nbsp;&nbsp;管理旅客信息：查看详细信息，编辑旅客信息，删除不需要的旅客信息；</p>
+		<p><i class="fa fa-tag"></i>&nbsp;&nbsp;管理住宿信息：住宿登记，查看详细信息，编辑住宿信息，为旅客供应日用品。</p>
+	</div>
+</div>
+<div id="alert">
+    <div class="container">
+        <div class="alert fade in">
+            <p class="lead">牡丹之星连锁旅馆信息管理系统</p>
+            <p>当前版本程序（V1.0）</p>
+            <p>我们为您提供方便快捷的操作，有效地提高信息管理效率。</p>
+            <p>今后会一直作为您忠实的伙伴，是您的不二选择。</p>
+            <p><i class="fa fa-phone"></i>&nbsp;:&nbsp;tel：XXXXX-612345</p>
+            <p><i class="fa fa-envelope"></i>&nbsp;:&nbsp;Email：lymdan@hotel.com</p>
+        </div>
+    </div>
+</div>
+         <!-- InstanceBeginEditable name="content" -->
+          <!-- InstanceEndEditable -->
+<footer>
+	<div class="container">
+		<br>
+		<p>管理系统 | 连锁酒店 | 连锁企业</p>
+		<p>豫ICP 备12345678. © 2017-2037 牡丹之星连锁酒店信息管理系统. Powered by Bootstrap.</p>
+	</div>
+</footer>
+<div id="listMenu">
+    <div class="listMenu-list">	
+        <a href="javascript:showTel();" class="list-tooltip" data-toggle="tooltip" data-placement="left" title="联系"><i class="fa fa-phone"></i></a>
+        <div class="panel panel-default" id="telWay">
+            <div class="panel-heading">
+                <h3 class="panel-title">有问题需要帮助，请咨询：</h3>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    tel：XXXXX-612345<span class="pull-right"><i class="fa fa-phone"></i></span>
+                </li>
+                <li class="list-group-item">
+                    Email：lymdan@hotel.com<span class="pull-right"><i class="fa fa-envelope"></i></span>
+                </li>
+            </ul>
+        </div>
+        <a href="javascript:exit(0);" class="list-tooltip" data-toggle="tooltip" data-placement="left" title="退出"><i class="fa fa-sign-out"></i></a>
+    </div>
+    <a href="#" class="list-btn">+</a>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+            <div class="modal-body clearfix" id="myModalBody">
+                
+            </div>
+            <div class="modal-footer" id="myModalFooter">
+               
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+	</body>
+    <script>
+    	$(function(){
+			init();
+		})
+    </script>
+<!-- InstanceEnd --></html>

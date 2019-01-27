@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.panel{
+	max-width:750px;
+	margin:20px auto;
+}
+.panel-title{
+	font-size:1.3em;
+	font-weight:500;
+}
+.panel-heading .pull-right{
+	line-height:2.5;
+}
+#canvas{
+	max-width:725px !important;
+	font-size:1em;
+	color:#000;
+}
